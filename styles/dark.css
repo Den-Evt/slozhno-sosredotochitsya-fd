@@ -5,8 +5,25 @@
 */
 
 :root.theme-dark {
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --h1-color: #db00ff;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --h3-color: #000028;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+.theme-dark .main__title,
+.theme-dark .decorated-zone::after,
+.theme-dark .decorated-zone::before,
+.theme-dark .header__theme-menu-button {
+  --accent-color: #ff0070;
+}
+
+.theme-dark .header_rec-indicator {
+  display: inline;
 }
