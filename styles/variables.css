@@ -6,10 +6,10 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --font-family: "IBM Plex mono", sans-serif;
-  --h1-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --h1-color: #db00ff;
-  --h3-color: #000028;
+  --font-family: "IBM Plex mono", monospace;
+  --headline-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --headline-color: #db00ff;
+  --subtitle-color: #000028;
   --font-weight-bold: 700;
   --accent-color: #ff0070;
   --text-font-size: 18px;
@@ -19,7 +19,7 @@
 
 @media (width >= 768px) {
   :root {
-    --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --headline-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --default-padding: 20px;
   }
 }
